@@ -22,8 +22,10 @@ struct GAMEPLAYUTILITIES_API FAnimNode_BlendListByTag : public FAnimNode_BlendLi
 	{
 	}
 
+#if WITH_EDITOR
 	virtual void AddPose() override;
 	virtual void RemovePose(int32 PoseIndex) override;
+#endif
 	
 	virtual void Initialize_AnyThread(const FAnimationInitializeContext& Context) override;
 	

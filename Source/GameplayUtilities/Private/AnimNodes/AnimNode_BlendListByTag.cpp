@@ -21,6 +21,7 @@ int32 FAnimNode_BlendListByTag::GetActiveChildIndex()
 	return 0;
 }
 
+#if WITH_EDITOR
 void FAnimNode_BlendListByTag::AddPose()
 {
 	Super::AddPose();
@@ -36,3 +37,5 @@ void FAnimNode_BlendListByTag::RemovePose(int32 PoseIndex)
 	Super::RemovePose(PoseIndex);
 	GameplayTags.RemoveAt(PoseIndex - 1);
 }
+
+#endif
