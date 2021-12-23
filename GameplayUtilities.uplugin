@@ -27,5 +27,11 @@
 			"LoadingPhase": "PreDefault",
 			"WhitelistPlatforms": ["Win64", "Win32", "Linux", "LinuxAArch64", "Mac"]
 		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
 	]
 }

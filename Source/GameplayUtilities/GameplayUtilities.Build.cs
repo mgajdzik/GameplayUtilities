@@ -40,7 +40,8 @@ public class GameplayUtilities : ModuleRules
 				"Slate",
 				"SlateCore",
 				"AnimGraphRuntime",
-				"GameplayTags"
+				"GameplayTags",
+				"EnhancedInput"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
